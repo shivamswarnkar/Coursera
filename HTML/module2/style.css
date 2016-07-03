@@ -6,63 +6,82 @@
 
 body{
 	color:#000000;
+	background-color: blue;
 }
 
 header{
 	text-align: center;
 	font-size: 24px;
 	font-family: "Times New Roman", serif;
+	background-color: white;
 
-	margin: 5%;
+	margin: 5% 1% 5% 1%;
+}
+
+footer{
+	text-align: right;
+	font-size: 20px;
+	margin: 1%;
+
 }
 
 
 .title{
 	display: block;
 	width: 25%;
-	font-size:16px;
+	font-size:20px;
 	text-align: center;
-	position: relative;
-	left: 75%;
-	border: 2px solid grey;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border: 5px solid white;
+	border-top: 0px;
+	border-right: 0px;
+
+	color:white;
+
 }
 
 .title.first{
-	background-color: yellow;
-	color:green;
+	background-color: green;
 
 }
 
 .title.second{
-	background-color: black;
-	color:white;
+	background-color: red;
 }
 
 .title.third{
-	background-color: skyblue;
-	color: red;
+	background-color: purple;
 }
 
 .base {
-	padding: 10px;
-	border: 2px solid grey;
-	background-color: maroon;
+	padding: 50px;
+	border: 5px solid white;
 	float: left;
-
 	position: relative;
-
-	margin: 1%;
-
-	height: 200px;
+	margin: 5% 1% 5% 1%;
+	min-height: 200px;
+	color:white;
 }
 
+.base.life{
+	background-color: hotpink;
+}
 
+.base.death{
+	background-color: black;
+}
+
+.base.heaven{
+	background-color: orange;
+}
 
 @media (min-width: 992px){
 	.base.lg-4{
 		width: 31.33%;
 		
-	}
+	}
 
 }
 
