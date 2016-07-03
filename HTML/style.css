@@ -18,11 +18,13 @@ header{
 
 
 .title{
+	display: block;
 	width: 25%;
+	font-size:16px;
 	text-align: center;
 	position: relative;
-	left:75%;
-	border: 5px solid grey;
+	left: 75%;
+	border: 2px solid grey;
 }
 
 .title.first{
