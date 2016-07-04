@@ -14,7 +14,7 @@ header{
 	font-size: 24px;
 	font-family: "Times New Roman", serif;
 	background-color: white;
-	border: 1px solid black;
+	border: 1px thick black;
 
 	margin: 5% 1% 5% 1%;
 }
@@ -37,7 +37,7 @@ footer{
 	position: absolute;
 	right: 0px;
 	top: 0px;
-	border: 1px solid black;
+	border: 1px thick black;
 	border-top: 0px;
 	border-right: 0px;
 	color:white;
@@ -59,7 +59,7 @@ footer{
 
 .base {
 	padding: 50px;
-	border: 1px solid black;
+	border: 1px thick black;
 	float: left;
 	position: relative;
 	margin: 5% 1% 5% 1%;
