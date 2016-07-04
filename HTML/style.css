@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin:0px;
+}
+header{
+	color: white;
+	background-color: black;
+	font-size: 24px;
+	font-family: serif;
+	text-align: center;
+	margin-bottom: 100px;
+
+}
+
+div{
+	width: 30%;
+	margin: 10%;
+	margin-top: 5%; 
+	height: 150px;
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	font-family: serif;
+	text-align: center;
+	padding-top: 5%;
+	float: left;
+}
+
+a{
+	text-decoration: none;
+}
